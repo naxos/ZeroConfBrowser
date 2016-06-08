@@ -4,7 +4,7 @@ ZeroConfBrowser is a very basic iOS example on how to browse zero configuration 
 
 ## License
 
-ZeroConfBrowser is licensed und the Simplified BSD License.
+ZeroConfBrowser is licensed und the _Simplified BSD License_.
 
 Copyright (c) 2016, Naxos Software Solutions GmbH. All rights reserved.
 
