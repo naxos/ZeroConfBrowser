@@ -12,22 +12,11 @@
 		4588A2B61D081CC800FE638F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4588A2B41D081CC800FE638F /* Main.storyboard */; };
 		4588A2B81D081CC800FE638F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4588A2B71D081CC800FE638F /* Assets.xcassets */; };
 		4588A2BB1D081CC800FE638F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4588A2B91D081CC800FE638F /* LaunchScreen.storyboard */; };
-		4588A2C61D081CC800FE638F /* ZeroConfBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4588A2C51D081CC800FE638F /* ZeroConfBrowserTests.m */; };
 		4588A2D91D081DF100FE638F /* DomainsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4588A2D81D081DF100FE638F /* DomainsTableViewController.m */; };
 		4588A2E31D0821F000FE638F /* ServiceTypesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4588A2E21D0821F000FE638F /* ServiceTypesTableViewController.m */; };
 		4588A2E61D082A3A00FE638F /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4588A2E51D082A3A00FE638F /* ServicesTableViewController.m */; };
 		4588A2E91D082F6400FE638F /* ServiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4588A2E81D082F6400FE638F /* ServiceTableViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4588A2C21D081CC800FE638F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4588A2A01D081CC800FE638F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4588A2A71D081CC800FE638F;
-			remoteInfo = ZeroConfBrowser;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4588A2E01D081F2000FE638F /* Embed Frameworks */ = {
@@ -51,9 +40,6 @@
 		4588A2B71D081CC800FE638F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4588A2BA1D081CC800FE638F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4588A2BC1D081CC800FE638F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4588A2C11D081CC800FE638F /* ZeroConfBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroConfBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4588A2C51D081CC800FE638F /* ZeroConfBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZeroConfBrowserTests.m; sourceTree = "<group>"; };
-		4588A2C71D081CC800FE638F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4588A2D71D081DF100FE638F /* DomainsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainsTableViewController.h; sourceTree = "<group>"; };
 		4588A2D81D081DF100FE638F /* DomainsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainsTableViewController.m; sourceTree = "<group>"; };
 		4588A2E11D0821F000FE638F /* ServiceTypesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTypesTableViewController.h; sourceTree = "<group>"; };
@@ -73,13 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4588A2BE1D081CC800FE638F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +67,6 @@
 			children = (
 				4588A2EA1D08435300FE638F /* README.md */,
 				4588A2AA1D081CC800FE638F /* ZeroConfBrowser */,
-				4588A2C41D081CC800FE638F /* ZeroConfBrowserTests */,
 				4588A2A91D081CC800FE638F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				4588A2A81D081CC800FE638F /* ZeroConfBrowser.app */,
-				4588A2C11D081CC800FE638F /* ZeroConfBrowserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,15 +100,6 @@
 				4588A2AC1D081CC800FE638F /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4588A2C41D081CC800FE638F /* ZeroConfBrowserTests */ = {
-			isa = PBXGroup;
-			children = (
-				4588A2C51D081CC800FE638F /* ZeroConfBrowserTests.m */,
-				4588A2C71D081CC800FE638F /* Info.plist */,
-			);
-			path = ZeroConfBrowserTests;
 			sourceTree = "<group>";
 		};
 		4588A2D31D081D5A00FE638F /* Views */ = {
@@ -170,24 +138,6 @@
 			productReference = 4588A2A81D081CC800FE638F /* ZeroConfBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4588A2C01D081CC800FE638F /* ZeroConfBrowserTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4588A2CD1D081CC800FE638F /* Build configuration list for PBXNativeTarget "ZeroConfBrowserTests" */;
-			buildPhases = (
-				4588A2BD1D081CC800FE638F /* Sources */,
-				4588A2BE1D081CC800FE638F /* Frameworks */,
-				4588A2BF1D081CC800FE638F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4588A2C31D081CC800FE638F /* PBXTargetDependency */,
-			);
-			name = ZeroConfBrowserTests;
-			productName = ZeroConfBrowserTests;
-			productReference = 4588A2C11D081CC800FE638F /* ZeroConfBrowserTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +149,6 @@
 				TargetAttributes = {
 					4588A2A71D081CC800FE638F = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					4588A2C01D081CC800FE638F = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 4588A2A71D081CC800FE638F;
 					};
 				};
 			};
@@ -220,7 +166,6 @@
 			projectRoot = "";
 			targets = (
 				4588A2A71D081CC800FE638F /* ZeroConfBrowser */,
-				4588A2C01D081CC800FE638F /* ZeroConfBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,13 +178,6 @@
 				4588A2BB1D081CC800FE638F /* LaunchScreen.storyboard in Resources */,
 				4588A2B81D081CC800FE638F /* Assets.xcassets in Resources */,
 				4588A2B61D081CC800FE638F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4588A2BF1D081CC800FE638F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,23 +197,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4588A2BD1D081CC800FE638F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4588A2C61D081CC800FE638F /* ZeroConfBrowserTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4588A2C31D081CC800FE638F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4588A2A71D081CC800FE638F /* ZeroConfBrowser */;
-			targetProxy = 4588A2C21D081CC800FE638F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4588A2B41D081CC800FE638F /* Main.storyboard */ = {
@@ -407,30 +329,6 @@
 			};
 			name = Release;
 		};
-		4588A2CE1D081CC800FE638F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ZeroConfBrowserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.naxos-software.ZeroConfBrowserTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeroConfBrowser.app/ZeroConfBrowser";
-			};
-			name = Debug;
-		};
-		4588A2CF1D081CC800FE638F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ZeroConfBrowserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.naxos-software.ZeroConfBrowserTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeroConfBrowser.app/ZeroConfBrowser";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,15 +346,6 @@
 			buildConfigurations = (
 				4588A2CB1D081CC800FE638F /* Debug */,
 				4588A2CC1D081CC800FE638F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4588A2CD1D081CC800FE638F /* Build configuration list for PBXNativeTarget "ZeroConfBrowserTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4588A2CE1D081CC800FE638F /* Debug */,
-				4588A2CF1D081CC800FE638F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
